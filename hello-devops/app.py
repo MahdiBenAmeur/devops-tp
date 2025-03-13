@@ -7,7 +7,7 @@ def hello():
     return "Hello, CI/CD!"
 
 @app.route('/status')
-def hello():
+def get_status():
     return "waw a status endpoint so cooll"
 
 if __name__ == "__main__":
